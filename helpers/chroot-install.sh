@@ -19,6 +19,8 @@ locale-gen
 hostnamectl set-hostname "$HOSTNAME"
 sed -i "s/_HOSTNAME/$HOSTNAME/g" /etc/hosts
 
+sed -i "s/#Color/Color/g" /etc/pacman.conf
+
 cp "/archer/installer/conf/mkinitcpio.conf" /etc/mkinitcpio.conf
 
 bootctl install
@@ -34,9 +36,6 @@ awesomeShell
 systemctl enable gdm
 systemctl enable NetworkManager
 
-# TODO: Copy over dotfiles
-
-# TODO: Setup root user
+# TODO: Customisation stuff (dot files)
 
 exit
-
