@@ -11,7 +11,7 @@
 - [ ] dev: node, eslint, prettier
 - [ ] oh-my-zsh prompts for input ... will installing from aur fix this? what about updates if its copied to your home folder?
 - [ ] aur: visual-studio-code-bin nerd-fonts-complete (is cherry picking possible?)
-- [ ] don't use gnome-extra (just cherry pick)
+- [ ] don't use gnome-extra (just cherry pick), shell extensions (gsconnect, horizontal spacing, argos, cpu freq, ...)
 
 # Where is the installer!?
 
